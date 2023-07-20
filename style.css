@@ -1,0 +1,36 @@
+
+
+body {
+
+    width: 100%;
+    background-color: rgba(55, 174, 154, 0.554);
+    text-align: center;  
+}
+
+.container {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(195, 193, 193);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.resetDiv {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.resizeDiv {
+    display: inline-block;
+}
