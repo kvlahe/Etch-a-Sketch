@@ -36,9 +36,10 @@ createGrid()
 
 
 
-const cells = document.querySelectorAll('.squares');
+//const cells = document.querySelectorAll('.squares');
 
 function reset() {
+    const cells = document.querySelectorAll('.squares');
     for (const cell of cells) {
         cell.style.backgroundColor = 'rgb(195, 193, 193)';
     }
@@ -58,6 +59,3 @@ resizeButton.addEventListener('click', () => {
     createGrid(value);
     }
 })
-
-
-
