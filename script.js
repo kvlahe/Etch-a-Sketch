@@ -10,9 +10,6 @@ resizeButton.setAttribute('class', 'resizeButton');
 resizeButton.textContent = 'Resize';
 resizeDiv.appendChild(resizeButton);
 
-
-
-
 createGrid = gridNumber => {
     if (gridNumber === undefined) {
         gridNumber = 16;
@@ -31,12 +28,7 @@ createGrid = gridNumber => {
     }));
 };
 
-
 createGrid()
-
-
-
-//const cells = document.querySelectorAll('.squares');
 
 function reset() {
     const cells = document.querySelectorAll('.squares');
@@ -45,7 +37,6 @@ function reset() {
     }
 }
 resetButton.addEventListener('click', reset);
-
 
 resizeButton.addEventListener('click', () => {
     value = prompt('What is your preferred grid size?');
